@@ -20,7 +20,7 @@ server.register( 'math', MathAPI );
 
 ### Client
 
-The *client* is the window which will use the API. Before getting and hold on an API, you will have to open it before, by using the `use()` method of the APIClient class and passing it a callback. This callback will then be called when a bridge toward the server will be established. From this point, you will be able to use the remote API just like you would use a standard JS object (check the Limitations section for more informations).
+The *client* is the window which will use the API. Before getting an hold on an API, you will have to open it before, by using the `use()` method of the APIClient class and passing it a callback. This callback will then be called when a bridge toward the server will be established. From this point, you will be able to use the remote API just like you would use a standard JS object (check the Limitations section for more informations).
 
 ```html
 <iframe id="api-server" src="http://example.org"></iframe>
