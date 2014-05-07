@@ -16,7 +16,7 @@ var server = new APIServer( );
 server.register( 'math', MathAPI );
 ```
 
-### Host webpage (client)
+### Client
 
 The 'client' is the window which will use the API. You will have to 'open' it before, by using the `register` method of the APIClient class and passing it a callback. This callback will then be called when a bridge toward the server will be established. From this point, you will be able to use the remote API just like you would use a standard JS object (check the Limitations section for more informations).
 
