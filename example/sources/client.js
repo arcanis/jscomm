@@ -14,8 +14,12 @@
                 throw err;
 
             api.fibonacci( 12, function ( err, result ) {
-                if ( err ) throw err ;
-                console.log( 'Fibonnaci #12 = ' + result );
+
+                if ( err )
+                    throw err ;
+
+                alert( 'The remote window answered by saying that Fibonnaci(12) = ' + result );
+
             } );
 
         } );
